@@ -40,6 +40,13 @@
             </plugin>
         </plugins>
     </build>
+    
+    <distributionManagement>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://13.232.145.171:8081/repository/java-snapshots/</url>
+    </snapshotRepository>
+    
     <distributionManagement>
 
     <repository>
