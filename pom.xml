@@ -50,14 +50,13 @@
 
         </plugins>
     </build>
-
-    <!-- Nexus Repository Configuration -->
     <distributionManagement>
-
-        <repository>
-            <id>nexus-releases</id>
-            <url>http://13.201.15.14:8081/repository/java-packages/</url>
-        </repository>
+    <repository>
+        <id>nexus-releases</id>
+        <name>Nexus Releases</name>
+        <url>http://15.206.172.250:8081/repository/java-packages/</url>
+    </repository>
+</distributionManagement>
 
     </distributionManagement>
 
