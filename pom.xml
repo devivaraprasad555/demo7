@@ -54,7 +54,7 @@
     <repository>
         <id>nexus-releases</id>
         <name>Nexus Releases</name>
-        <url>http://35.154.45.24:8081/repository/java-packages_new/</url>
+        <url>http://13.233.206.115:8081/repository/java-packages_new/</url>
     </repository>
 </distributionManagement>
 
